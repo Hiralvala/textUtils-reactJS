@@ -38,13 +38,13 @@ function App() {
   return (
     <div className="App">
       <Navbar title="Textutils" aboutText="about" toggleMode={toggleMode} mode={mode}/>
-      {/* <Alert alert={alert}/>
+      <Alert alert={alert}/>
 
       <div className="container my-3">
       <TextForm heading="Enter the text to analyze below" mode={mode} showAlert={showAlert}/>
-      </div> */}
+      </div>
 
-      <About/>
+      {/* <About/> */}
     </div>
   );
 }
